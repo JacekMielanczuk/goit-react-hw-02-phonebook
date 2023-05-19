@@ -1,0 +1,16 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #090979;
+}
+
+.container {
+  padding: 30px 50px;
+  text-align: center;
+  border: 1px solid #090979;
+  margin: 10px auto;
+  background-color: #fdfdfd;
+  box-shadow: 1px 3px 31px 23px rgba(0, 0, 0, 0.7);
+  width: 500px;
+}

@@ -18,7 +18,7 @@ const ContactForm = ({ formSubmit }) => {
       <label className={css.label}>
         <span className={css.labelText}>Number</span>
         <input
-          className={styles.input}
+          className={css.input}
           type="tel"
           name="number"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
@@ -34,3 +34,5 @@ const ContactForm = ({ formSubmit }) => {
 };
 
 ContactForm.propTypes = { formSubmit: PropTypes.func.isRequired };
+
+export default ContactForm;

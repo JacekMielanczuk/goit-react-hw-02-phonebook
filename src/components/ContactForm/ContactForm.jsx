@@ -34,5 +34,3 @@ const ContactForm = ({ formSubmit }) => {
 };
 
 ContactForm.propTypes = { formSubmit: PropTypes.func.isRequired };
-
-export default ContactForm;
